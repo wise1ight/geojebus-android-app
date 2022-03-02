@@ -1,0 +1,95 @@
+<resources>
+    <!-- 기본 어플리케이션 Strings -->
+    <string name="app_name">거제버스</string>
+    <string name="exit_msg">\'뒤로\' 버튼을 한번 더 누르시면 종료됩니다.</string>
+    <string name="welcome_to_geojebus">거제버스를 시작하기 전에</string>
+    <string name="welcome_text">거제버스를 선택해 주셔서 감사합니다. 시작하기 전에 사용약관에 동의해 주십시오.</string>
+    <string name="eula_text">- 사용약관\n이 어플리케이션이 제공하는 정보를 신뢰함으로서 발생하는 손해에 대해서 개발자는 책임을 지지 않습니다.\n\n- 위치정보 활용 동의\n이 어플리케이션은 정확한 정보 제공을 위해 사용자의 위치정보를 활용 할 수 있습니다.</string>
+    <string name="decline">동의안함</string>
+    <string name="accept">동의</string>
+    <string name="eula_accept_checkbox">사용약관에 동의합니다</string>
+    <string name="location_accept_checkbox">위치정보 활용에 동의합니다 (선택)</string>
+    <string name="pre_database_download_title">데이터베이스 다운로드</string>
+    <string name="pre_database_download_text">앱 구동을 하기 위해서는 버스 데이터가 필요합니다.</string>
+    <string name="copyright">Copyright © KUvH. 2014-2016 All right reserved.</string>
+
+    <!-- API 관련 -->
+    <string name="geojebus_api_url">http://appdata.geojebus.kr</string>
+    <string name="daum_map_api_key">7ddaf0cb05dbe379efaf7c4113fce19a</string>
+    <string name="kakao_app_key">29b722f7e44e8585f3b76927c1b9ee6e</string>
+    <string name="kakao_scheme">kakao29b722f7e44e8585f3b76927c1b9ee6e</string>
+    <string name="kakaolink_host">kakaolink</string>
+
+    <!-- BaseActivity -->
+    <string name="open">열기</string>
+    <string name="close">닫기</string>
+
+    <!-- DetailBaseActivity -->
+    <string name="speak_now">지금 말하세요.</string>
+
+    <!-- StopDetailActivity -->
+    <string name="title_stop_search_fragment">정류장</string>
+    <string name="stop_search_empty_text_1">정류장 이름 또는 ARS 번호로 검색해보세요.</string>
+    <string name="stop_search_empty_text_2">해당 정류장의 검색결과가 없습니다.\n\n정류장 이름 또는 ARS 번호가 정확한지 확인해주시기 바랍니다.</string>
+    <string name="stop_search_query_hint">정류장 이름, ARS 번호</string>
+    <string name="stop_search_location_use">설정에서 위치 정보 활용에 동의해 주시기 바랍니다.</string>
+
+    <!-- RouteDetailActivity -->
+    <string name="title_route_search_fragment">노선</string>
+    <string name="route_search_empty_text_1">노선 번호로 검색해보세요.</string>
+    <string name="route_search_empty_text_2">해당 노선의 검색결과가 없습니다.\n\n노선번호가 정확한지 확인해주시기 바랍니다.</string>
+    <string name="route_search_query_hint">노선 번호</string>
+
+    <!-- 설정 액티비티 -->
+    <string name="title_activity_settings">설정</string>
+
+    <string name="pref_header_general">일반</string>
+
+    <string name="pref_title_bis_frequency">실시간 정보 업데이트 주기</string>
+    <string-array name="pref_bis_frequency_titles">
+        <item>20 초</item>
+        <item>30 초</item>
+        <item>40 초</item>
+        <item>50 초</item>
+        <item>1 분</item>
+        <item>업데이트 안함</item>
+    </string-array>
+    <string-array name="pref_bis_frequency_values">
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="bisinterval">
+        <item>"30초"</item>
+        <item>"1분"</item>
+        <item>"2분"</item>
+        <item>"5분"</item>
+        <item>"10분"</item>
+    </string-array>
+    <string-array name="bisinterval_values">
+        <item>"30"</item>
+        <item>"60"</item>
+        <item>"120"</item>
+        <item>"300"</item>
+        <item>"600"</item>
+    </string-array>
+
+    <string name="title_activity_time_table">시간표</string>
+
+    <!-- 정보 액티비티 -->
+    <string name="title_activity_about">도움말 및 정보</string>
+
+    <!-- 오류 토스트 정의 -->
+    <string name="toast_error_1">알 수 없는 오류입니다.</string>
+    <string name="toast_error_2">존재하지 않는 자료입니다.</string>
+    <string name="toast_error_3">알 수 없는 오류입니다.</string>
+    <string name="toast_error_4">알 수 없는 오류입니다.</string>
+    <string name="toast_error_5">알 수 없는 오류입니다.</string>
+    <string name="toast_error_101">네트워크를 사용할 수 없습니다.</string>
+    <string name="toast_error_not_define">오류 번호 : </string>
+
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+
+    <color name="colorPrimary">#009b77</color>
+    <color name="colorPrimaryDark">#007c5f</color>
+    <color name="colorAccent">#66C3AD</color>
+    <color name="white_semi_transparent">#b3ffffff</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="color1">#e4007f</color>
+    <color name="color2">#f39600</color>
+    <color name="color3">#52ab2d</color>
+    <color name="color4">#00a0d2</color>
+    <color name="color5">#006db6</color>
+
+    <color name="bg_swipe_item_neutral">#ffffff</color>
+    <color name="bg_swipe_item_left">#f44336</color>
+    <color name="bg_swipe_item_right">#f39600</color>
+
+</resources>

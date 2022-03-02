@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_item_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home_black_48dp"
+            android:title="홈" />
+        <item
+            android:id="@+id/drawer_item_stop"
+            android:icon="@drawable/ic_map_marker_black_48dp"
+            android:title="정류장" />
+        <item
+            android:id="@+id/drawer_item_route"
+            android:icon="@drawable/ic_dots_vertical_black_48dp"
+            android:title="노선" />
+        <item
+            android:id="@+id/drawer_item_favorite"
+            android:icon="@drawable/ic_star_black_48dp"
+            android:title="나의버스" />
+    </group>
+    <group
+        android:id="@+id/drawer_bottom_items"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/drawer_item_setting"
+            android:icon="@drawable/ic_settings_black_48dp"
+            android:title="설정" />
+        <item
+            android:id="@+id/drawer_item_info"
+            android:icon="@drawable/ic_information_black_48dp"
+            android:title="도움말 및 정보" />
+    </group>
+</menu>

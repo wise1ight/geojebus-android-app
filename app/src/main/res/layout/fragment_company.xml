@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:color/white">
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="#444444"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="회사명"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="#444444"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="전화번호"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="#cccccc"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="삼화여객" />
+
+            <TextView
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:autoLink="phone"
+                android:background="#cccccc"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="055)632-2192" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="#cccccc"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="세일교통" />
+
+            <TextView
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:autoLink="phone"
+                android:background="#cccccc"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="055)635-5100" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="#cccccc"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="태영버스" />
+
+            <TextView
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:autoLink="phone"
+                android:background="#cccccc"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="055)333-6611" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="#cccccc"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="동남여객" />
+
+            <TextView
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:autoLink="phone"
+                android:background="#cccccc"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="051)624-8201" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="#cccccc"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="동원여객" />
+
+            <TextView
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:autoLink="phone"
+                android:background="#cccccc"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="051)261-5001" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="#cccccc"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="동진여객" />
+
+            <TextView
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:autoLink="phone"
+                android:background="#cccccc"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="051)261-2773" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

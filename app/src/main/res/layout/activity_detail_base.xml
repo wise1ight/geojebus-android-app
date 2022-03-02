@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fct.geojebus.RouteDetailActivity">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coordinator"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:clipChildren="false">
+
+        <fragment
+            android:id="@+id/map"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/map_space_height" />
+
+        <View
+            android:id="@+id/list_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white" />
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.github.ksoichiro.android.observablescrollview.ObservableRecyclerView
+                android:id="@+id/scroll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <FrameLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false">
+
+            <View
+                android:id="@+id/header_background"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/header_bar_height"
+                android:background="?attr/colorPrimary"
+                android:minHeight="@dimen/header_bar_height" />
+
+            <LinearLayout
+                android:id="@+id/header_bar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/header_bar_height"
+                android:gravity="center_vertical"
+                android:minHeight="@dimen/header_bar_height"
+
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/header_icon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="16dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/header_title"
+                        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1" />
+
+                    <TextView
+                        android:id="@+id/header_subtitle"
+                        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/transparent"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/Toolbar" />
+
+        <RelativeLayout
+            android:id="@+id/semi_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
+            android:background="@color/white_semi_transparent"
+            android:visibility="gone"></RelativeLayout>
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:id="@+id/fab_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="16dp"
+            app:fab_addButtonColorNormal="@color/colorPrimary"
+            app:fab_addButtonColorPressed="@color/colorAccent"
+            app:fab_addButtonPlusIconColor="@color/white"
+            app:fab_labelStyle="@style/FloatingActionMenuLabel"
+            app:fab_labelsPosition="left"
+            app:layout_behavior="com.fct.geojebus.ui.FloatingActionsMenuBehavior">
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_action_kakao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="#ffeb00"
+                app:fab_colorPressed="#FFF799"
+                app:fab_icon="@drawable/ic_fab_kakao"
+                app:fab_size="mini"
+                app:fab_title="카카오톡 보내기" />
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_action_favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="@color/colorPrimary"
+                app:fab_colorPressed="@color/colorAccent"
+                app:fab_icon="@drawable/ic_fab_star"
+                app:fab_size="mini"
+                app:fab_title="즐겨찾기" />
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_action_shortcut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="@color/colorPrimary"
+                app:fab_colorPressed="@color/colorAccent"
+                app:fab_icon="@drawable/ic_fab_shortcut"
+                app:fab_size="mini"
+                app:fab_title="바로가기" />
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_action_report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_colorNormal="@color/colorPrimary"
+                app:fab_colorPressed="@color/colorAccent"
+                app:fab_icon="@drawable/ic_fab_pencil"
+                app:fab_size="mini"
+                app:fab_title="수정요청" />
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <net.daum.adam.publisher.AdView
+        android:id="@+id/adview"
+        clientId="5c56Z14T1431bd23421"
+        requestInterval="12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:visibility="invisible" />
+
+</LinearLayout>

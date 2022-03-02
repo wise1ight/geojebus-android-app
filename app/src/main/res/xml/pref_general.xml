@@ -1,0 +1,38 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="location_use_agreement"
+        android:summary="지도에서 위치정보를 활용합니다."
+        android:title="위치정보 활용 동의" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="auto_database_update"
+        android:summary="앱 시작시에 자동으로 버스 데이터 업데이트를 확인하여 실행합니다."
+        android:title="자동으로 데이터 업데이트" />
+
+    <Preference
+        android:key="database_version"
+        android:title="데이터베이스 버전" />
+
+    <Preference
+        android:enabled="false"
+        android:key="database_update"
+        android:title="데이터베이스 업데이트" />
+
+    <ListPreference
+        android:defaultValue="30"
+        android:entries="@array/pref_bis_frequency_titles"
+        android:entryValues="@array/pref_bis_frequency_values"
+        android:key="bis_frequency"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_bis_frequency" />
+
+    <Preference
+        android:key="recent_remove"
+        android:summary="최근 조회목록을 삭제합니다."
+        android:title="최근 조회목록 삭제" />
+
+</PreferenceScreen>

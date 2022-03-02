@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="28dip"
+            android:layout_marginLeft="25dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="2dip"
+            android:gravity="center_vertical"
+            android:text="시내버스"
+            android:textColor="#2e2e2e"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="16dip"
+            android:background="#cccccc" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#444444"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="구분"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#444444"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="현금"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#444444"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="교통카드"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="일반" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="1,300원" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="1,250원" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="청소년" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="900원" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="850원" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="어린이" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="650원" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="600원" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:gravity="right"
+            android:text="(2015년 8월 1일 기준)" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="28dip"
+            android:layout_marginLeft="25dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="2dip"
+            android:gravity="center_vertical"
+            android:text="거제-부산 시내직행 좌석버스"
+            android:textColor="#2e2e2e"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="16dip"
+            android:background="#cccccc" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#444444"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="구분"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#444444"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="시내 현금"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#444444"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="시내 교통카드"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#444444"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="시외 현금"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#444444"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="시외 교통카드"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="일반" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="1,800원" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="1,700원" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="4,500원" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="4,200원" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="청소년" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="1,700원" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="1,350원" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="4,000원" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="3,550원" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="어린이" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="1,300원" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="1,200원" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="3,500원" />
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="#cccccc"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="3,200원" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:gravity="right"
+            android:text="(2014년 1월 22일 기준)" />
+
+    </LinearLayout>
+
+</ScrollView>
